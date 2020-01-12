@@ -1,4 +1,4 @@
-CFLAGS=-Wall -Werror -lssl -lcrypto
+CFLAGS=-g -Wall  -lssl -lcrypto -lm
 
 default: testcase1 testcase2 testcase3 testcase4 base
 
